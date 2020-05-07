@@ -14,6 +14,6 @@ for pop_dict in pop_data:
         population = int(float(pop_dict['Value']))
         code = get_country_code(country_name)
         if code:
-            print(code + ':' + str(population))
+            print(code + ': ' + str(population))
         else:
             print('ERROR -' + country_name)
